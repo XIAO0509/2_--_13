@@ -1,0 +1,20 @@
+h1{
+    text-indent: -1.35em;
+    padding-left: 1.5em;/*Отступ первой строки*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(165, 30, 30);
+    font-size: 50px;
+    font-weight:normal;
+}
+div{
+    display: block;
+    margin: 10px auto;
+    width: 1000px;
+    height: 100px;
+}
+p.a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 14, 139);
+    font-size: 18px;
+    font-weight:100;
+}
