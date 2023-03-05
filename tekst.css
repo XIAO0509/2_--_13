@@ -15,16 +15,38 @@ div{
 p.a{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(51, 14, 139);
-    font-size: 18px;
+    font-size: 24px;
     font-weight:100;
 }
 p.ba{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     color: rgb(72, 76, 80);
 }
-b.bb{
-    font-size: 40px;
+.bb{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
     font-style:italic;
+    color: black;
+}
+.bc{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: black;
+}
+.bda{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style:italic;
+    color: black;
+}
+.bd{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+}
+.be{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
     color: black;
 }

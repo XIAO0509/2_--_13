@@ -10,9 +10,32 @@
 <body>
     <div>
     <h1>72.Задачи на установление сходимости функциональных рядов</h1> 
-    <p class="a"><i><b>Пример 1.</i></b></p><br/>
-    <p class="ba"><i>Установить сходимость ряда<b class="bb"><math xmlns='http://www.w3.org/1998/Math/MathML'> <munderover> <mrow> <mo> &#x2211; <!-- n-ary summation --> </mo> </mrow> <mrow> <mi> k </mi> <mo> = </mo> <mn> 1 </mn> </mrow> <mrow> <mi> &#x221E; <!-- infinity --> </mi> </mrow> </munderover> <mfrac> <mrow> <mi> sin </mi> <mi> k </mi> <mi> x </mi> </mrow> <mrow> <mi> k </mi> </mrow> </mfrac> </math></b></i>.</p>
-    <p></p>
+    <p class="a"><i><b>Пример 1.</i></b></p>
+    <p class="ba"><i>Установить сходимость ряда<b class="bb"><math xmlns='http://www.w3.org/1998/Math/MathML' class="bc"> <munderover> <mrow> <mo class="be"> &#x2211; <!-- n-ary summation --> </mo> </mrow> <mrow> <mi class="bda"> k </mi><mo class="bd">=</mo><mn class="bd"> 1 </mn> </mrow> <mrow> <mi class="bda"> &#x221E; <!-- infinity --> </mi> </mrow> </munderover> <mfrac> <mrow> <mi class="bc">sin </mi> <mi class="bb"> k </mi> <mi class="bb"> x </mi> </mrow> <mrow> <mi class="bb"> k </mi> </mrow> </mfrac> </math></b></i>.</p>
+    <p class="ba">Воспользуемся признаком Дирихле - Абеля. Последовательность <a class="bc">{1 /</a><a class="bb"> k</a><a class="bc">}</a> не возрастающая 
+        и, в силу независимости от <i class="ba">x</i> ,равномерно сходящаяся к нулю. Докажем теперь, что последовательность частичных сумм 
+        <i class="bb"><math xmlns='http://www.w3.org/1998/Math/MathML'> <munderover> <mrow> <mo class="be"> &#x2211; <!-- n-ary summation --> </mo> </mrow> <mrow> <mi class="bda"> k </mi><mo class="bd"> = </mo><mn class="bd"> 1 </mn> </mrow> <mrow> <mi class="bda"> n </mi> </mrow> </munderover> <mi class="bc"> sin </mi> <mi class="bb"> k </mi> <mi class="bb"> x </mi> </math></i>
+        равномерно органичена.</p>
+    <p class="ba">
+        Суммируя известное тригонометрическое тождество <br>
+            <math xmlns='http://www.w3.org/1998/Math/MathML' class="bc"> <mn> 2 </mn><mi> sin </mi>
+             <mfrac><mrow><mi class="bb"> x </mi> </mrow><mrow class="bc"> <mn> 2 </mn> </mrow> </mfrac><mo> &#x00B7; <!-- middle dot --> 
+            </mo> <mi class="bc"> sin </mi> <mi class="bb"> k </mi> <mi class="bb"> x </mi><mo> = </mo><mi class="bc"> cos </mi><mrow>
+            <mo class="be">(</mo><mi class="bb"> k </mi><mo class="bc"> - </mo><mfrac class="bc"><mrow class="bc"><mn> 1 </mn> </mrow>
+            <mrow class="bc"> <mn class="bc"> 2 </mn></mrow></mfrac><mo class="be">)</mo> </mrow><mi class="bb"> x </mi><mo class="bc"> - </mo>
+            <mi> cos </mi><mrow class="bc"> <mo class="be">(</mo><mi class="bb"> k </mi><mo> + </mo><mfrac><mrow class="bc"><mn> 1 </mn></mrow>
+            <mrow class="bc"><mn class="bc"> 2 </mn></mrow></mfrac><mo class="be">)</mo></mrow><mi class="bb"> x </mi></math>
+        по всем k от 1 до n можем выразить частичную сумму:<br><math xmlns='http://www.w3.org/1998/Math/MathML' class="bc"> 
+            <msub><mrow><mi class="bb"> S </mi></mrow><mrow><mi class="bb"> n </mi></mrow></msub><mrow class="bc"><mo class="be"> (</mo>
+            <mi class="bb"> x </mi><mo class="be">) </mo> </mrow> <mo> = </mo> <munderover> <mrow class="bc"> <mo class="be"> &#x2211; 
+            <!-- n-ary summation --></mo></mrow><mrow class="bc"><mi class="bda"> k </mi><mo class="bd"> = </mo><mn class="bd"> 1 </mn>
+            </mrow> <mrow class="bc"> <mi class="bda"> n </mi> </mrow> </munderover> <mi> sin </mi> <mi class="bb"> k </mi> <mi class="bb"> x </mi>
+            <mo> = </mo><mfrac class="bc"><mrow class="bc"><mi> cos </mi><mfrac class="bc"><mrow class="bc"><mi class="bb"> x </mi></mrow> 
+            <mrow class="bc"><mn> 2 </mn></mrow></mfrac><mo> - </mo><mi> cos </mi><mrow class="bc"><mo class="be">(</mo>
+            <mi class="bb"> n </mi><mo> + </mo><mfrac class="bc"><mrow class="bc"><mn> 1 </mn></mrow><mrow class="bc"><mn> 2 </mn></mrow></mfrac> 
+            <mo class="be">)</mo></mrow><mi class="bb"> x </mi></mrow><mrow class="bc"><mn> 2 </mn><mi> sin </mi><mfrac class="bc"><mrow>
+            <mi class="bb"> x </mi></mrow><mrow class="bc"><mn> 2 </mn></mrow></mfrac></mrow></mfrac></math>.
+    </p>
 
     </div>
 </body>
